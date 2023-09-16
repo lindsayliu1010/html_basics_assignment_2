@@ -102,6 +102,10 @@
         <div>
           <div class="bigText">BE FOR REAL.</div>
           <h2 class="row" id="work">Who actually dreams of working?</h2>
+          <h2 class="row" id="past">
+            If my future was not dependent on the information I know of my past,
+            I would drop everything and move to the countryside
+          </h2>
         </div>
         <!-- <div class="row3">
           <h4>
@@ -133,6 +137,25 @@
           src="assets/images/GettyImages-1186587141.jpg"
           alt="wyoming nature"
         />
+      </div>
+      <div class="row">
+        <h2 id="fam">Family</h2>
+        <br />
+        <div class="chinese">
+          <p class="chinese">儿行千里母担忧</p>
+          <p class="chinese">“When children go far, mothers worry.”</p>
+          <br />
+          <p class="plain">
+            I chose this quote because my mom, dad, and brother are important to
+            me. They have always worried for my safety, health, and education,
+            and I am grateful to have a loving family who worry for me. I would
+            not have had these opportunities I have today if it weren't for
+            their sacrifices. As a first generation immigrant, I want to make my
+            parents proud. In order to do so, I want to get a good job after
+            college. After spending some time in the workforce, I want to live
+            out my dream.
+          </p>
+        </div>
       </div>
 
       <!-- <img

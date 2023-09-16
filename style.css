@@ -3,11 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500&family=Merriweather:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Imbue:opsz@10..100&family=Mukta&family=Permanent+Marker&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Imbue:opsz@10..100&family=Mukta&family=Pacifico&family=Permanent+Marker&family=Rubik+Mono+One&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
   background-color: rgb(211, 237, 255);
+}
+#fam {
+  color: red;
+  font-family: "Pacifico", cursive;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+}
+.plain {
+  color: black;
 }
 #wrapper {
   display: flex;
@@ -178,7 +187,15 @@ h4 {
   font-size: 1rem;
   color: #050553;
 }
-
+.chinese {
+  color: red;
+  font-size: 1.4rem;
+}
+#past {
+  color: #df63a6;
+  font-size: 1rem;
+  text-shadow: 1px 1px #ecd8e7;
+}
 footer {
   background-image: linear-gradient(rgb(211, 237, 255), #10005e);
   color: rgb(211, 237, 255);
