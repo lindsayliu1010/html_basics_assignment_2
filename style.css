@@ -1,110 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@100;400;600&family=Notable&family=Noto+Sans+Linear+B&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@100;400;600&family=Notable&family=Noto+Sans+Linear+B&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500&family=Merriweather:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Imbue:opsz@10..100&family=Mukta&family=Permanent+Marker&family=Rubik+Mono+One&display=swap");
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: rgb(211, 237, 255);
 }
-
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+#div1 {
+  display: inline-block;
+  max-height: 100%;
+}
+#div2 {
+  display: inline-block;
+  font-size: 7rem;
+  flex-wrap: wrap;
+  font-family: "Bad Script", cursive;
+  font-family: "Caveat", cursive;
+}
+.songInfo {
+  font-family: "Merriweather", serif;
+}
+.dukeBlue {
+  color: #00539b;
+}
+.dukeImg {
+  padding: 15px;
+}
+.h4 {
+  font-size: 4rem;
+}
+.arrow {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
 img {
-    display: block;
-    max-width: 100%;
-    margin: 0px;
+  display: block;
+  max-width: 100%;
+  margin: 0px;
 }
 
 main {
-    display: flex;
-    flex: 1 2 100px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Noto Sans Linear B', sans-serif;
-    font-size: .8rem;
+  display: flex;
+  flex: 1 2 100px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Noto Sans Linear B", sans-serif;
+  font-size: 0.8rem;
 }
 
 link {
-    color: #cc660e;
-    text-emphasis-color: #cc660e;
-    text-decoration: dashed;
+  color: #cc660e;
+  text-emphasis-color: #cc660e;
+  text-decoration: dashed;
 }
 
 .row {
-    padding: 1rem;
-    max-width: 400px;
-    max-height: 500px;
-    overflow: hidden;
-    margin: .5rem;
-
+  padding: 1rem;
+  max-width: 400px;
+  /* max-height: 500px; */
+  /* overflow: hidden; */
+  margin: 0.5rem;
+}
+.bigText {
+  font-size: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 800;
+}
+.lyrics {
+  font-family: "Bad Script", cursive;
+  font-family: "Caveat", cursive;
+  font-family: "Merriweather", serif;
 }
 
-.row2 {
-    padding: 1rem;
-    max-width: 800px;
-    margin: .5rem;
-    overflow: hidden;
+.lastRow {
+  display: flex;
+  padding: 1rem;
+  margin: 0.5rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
-
 
 .row3 {
-    padding: 2rem;
-    max-width: 100%;
-    text-align: center;
-    overflow: hidden;
-    margin: 1rem;
+  padding: 2rem;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem;
 }
 
-
 p {
-    font-family: 'Noto Sans Linear B', sans-serif;
-    font-size: 1rem;
+  font-family: "Noto Sans Linear B", sans-serif;
+  font-size: 1rem;
 }
 
 li {
-    line-height: 1.2rem;
-    padding: .5rem;
-    color: #050553;
-    background-color: linear-gradient(rgba(250, 145, 145, 0.7), rgba(237, 201, 165, 0.749));
+  line-height: 1.2rem;
+  padding: 0.5rem;
+  color: #050553;
+  background-color: linear-gradient(
+    rgba(250, 145, 145, 0.7),
+    rgba(237, 201, 165, 0.749)
+  );
 }
 
 h1 {
-    font-family: 'Notable', sans-serif;
-    font-weight: initial;
-    font-size: 2.8rem;
-    line-height: 3rem;
-    color: #a9d312;
-    text-shadow: 1px 1px #420916;
+  font-family: "Notable", sans-serif;
+  font-weight: initial;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  color: #a9d312;
+  text-shadow: 1px 1px #420916;
+}
 
+#nextStop {
+  color: #8742f5;
+  font-family: "Rubik Mono One", sans-serif;
+}
+#wyoming {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.8rem;
 }
 
 h2 {
-    font-family: 'Notable', sans-serif;
-    font-weight: initial;
-    color: #ff1493;
-    font-size: 2.4rem;
-    line-height: 2.5rem;
-    text-shadow: 1px 1px #420916;
-
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  text-shadow: 1px 1px #420916;
+}
+.regH2 {
+  font-family: "Mukta", sans-serif;
+  color: red;
+}
+.city {
+  font-family: "Imbue", serif;
+  color: green;
+}
+#future {
+  font-family: "Covered By Your Grace", cursive;
+  color: #f5bf42;
+  text-shadow: 1px 1px #de9b00;
+  /* text-shadow: #de9b00; */
+}
+.tech {
+  font-family: "Press Start 2P", cursive;
+  font-weight: initial;
+  color: blue;
+  padding-top: 10px;
 }
 
 h3 {
-    font-family: 'Foldit', sans-serif;
-    color: #cc660e;
-    font-size: 2rem;
-    text-shadow: 1px 1px #de1745;
-    font-weight: 400;
+  font-family: "Foldit", sans-serif;
+  color: #cc660e;
+  font-size: 2rem;
+  text-shadow: 1px 1px #de1745;
+  font-weight: 400;
+}
+
+#work {
+  color: #ff1493;
 }
 
 h4 {
-    font-family: 'Noto Sans Linear B', sans-serif;
-    font-size: 1rem;
-    color: #050553;
+  font-family: "Noto Sans Linear B", sans-serif;
+  font-size: 1rem;
+  color: #050553;
 }
 
 footer {
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 27, 0.5));
-    color: #ff1493;
-    font-size: .8rem;
-    font-family: 'Noto Sans Linear B', sans-serif;
-    line-height: 1rem;
-    padding: 5%;
+  background-image: linear-gradient(rgb(211, 237, 255), #10005e);
+  color: rgb(211, 237, 255);
+  font-size: 0.8rem;
+  font-family: "Noto Sans Linear B", sans-serif;
+  line-height: 1rem;
+  padding: 5%;
+  text-align: center;
 }
